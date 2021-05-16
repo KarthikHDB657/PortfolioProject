@@ -182,3 +182,27 @@ nav{
   }
   
 }
+/*............................*/
+.Services{
+  text-align: center;
+  background-color:grey;
+  padding-bottom: 2rem;
+  justify-content: center;
+
+}
+.Services h1{
+  text-transform: uppercase;
+  text-align: center;
+}
+.Services .box{
+background: whitesmoke;
+border-bottom: .3125rem solid orange;
+padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+height:25rem;
+width:100%;
+margin-bottom: 1.875rem;
+}
+.Services .box:hover{
+  background:orange;
+  border-bottom: .3125rem solid black;
+}
