@@ -36,7 +36,7 @@ const Services = () => {
                                 <p>Will do Webdesign and developed using proven technologies</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="col- col-md-6 col-sm-6">
                             <div className="box">
                                 <h3>Microsoft Dynamics 365</h3>
                                 <p>Will create a required apps using Microsoft D365 CRM</p>
