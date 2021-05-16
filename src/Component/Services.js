@@ -6,40 +6,40 @@ const Services = () => {
             <h1 className="py-5">My Services</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-2">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="box">
                                 <h3>Data Engineering and Analytics</h3>
-                                <p>Will build a required user friendly dashboards using PowerBi</p>
+                                <p>Will build a required user friendly detailed dashboards and charts</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-2">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="box">
-                              <h3>PowerApps</h3>
-                              <p>Will build a powerful apps using Microsoft PowerApps Platform </p>
+                              <h3>Microsoft technologies</h3>
+                              <p>Will build a powerful apps using Microsoft technologies like PowerApps,Microsoft Azure,Asp.net core </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-2">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="box">
                                 <h3>Automation Testing</h3>
-                                <p>Will do Automation testing for required website and mobile apps using selenium and appium in mstest framework </p>
+                                <p>Will do Automation testing for required website and mobile apps using selenium in mstest framework,nodejs in Playwright framework </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="box">
-                                <h3>Playwright Automation</h3>
-                                <p>Will do Automation testing for required website and mobile apps using Playwright framework</p>
+                                <h3>Salesforce</h3>
+                                <p>Will build lightning components and apps using Salesforce</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="box">
                                 <h3>Webdesign</h3>
                                 <p>Will do Webdesign and developed using proven technologies</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-2">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="box">
-                                <h3>Microsoft Dynamics 365</h3>
-                                <p>Will create a required apps using Microsoft D365 CRM</p>
+                                <h3>Web Development</h3>
+                                <p>your website will build in new proven technologies</p>
                             </div>
                         </div>
                         
