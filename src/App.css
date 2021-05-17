@@ -88,7 +88,7 @@ nav{
   background: url(./Images/wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height:90vh;
+  height:100vh;
 }
 .main-info{
   display: flex;
@@ -354,6 +354,9 @@ transition: 0.3s ease-in-out;
   width: 45rem;
   padding: 0 0.5rem;
 }
+.popupbox-wrapper {
+  margin-top: 5rem;
+}
 
 .hyper-link {
   cursor: pointer; 
@@ -373,10 +376,12 @@ transition: 0.3s ease-in-out;
 
 @media(max-height: 570px) {
 .popupbox-wrapper {
-  height: 100%;
+  height: 50%;
+  
 }
   .portfolio-image-popupbox {
     width: 50%;
+    height: 50%;
   }
 }
 
@@ -451,3 +456,128 @@ transition: 0.3s ease-in-out;
   margin: auto !important;
   margin-top: 3% !important;
 }
+/************************ CONTACTS COMPONENT *********************************/
+.contacts {
+  background:black;
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: orange;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+/*------------------ INPUTS -------------------------------*/
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid grey;
+  border-radius: 0;
+  color: orange;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: orange;
+  border-bottom: 0.125rem solid grey;
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background:orange;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: orange;
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message {
+  color: white;
+  background: red;
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: green !important;
+}
+
+/*---------------- MEDIA -----------------------*/
+@media(max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+  
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: black !important;
+  color: grey !important;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: grey !important;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: orange !important;
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+
+

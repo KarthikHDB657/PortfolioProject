@@ -1,17 +1,19 @@
 import React from 'react';
 import Typed from 'react-typed';
+import { Link } from "react-scroll";
 
 const Header = () => {
     return (
-     <div className="header-wrapper">
+     <div id="home" className="header-wrapper">
         <div className="main-info">
            <h1>Hi Folks! Karthik Bharadwaj here.....</h1>
            <Typed className="typed-text"
-            strings={['Web Development','Data Engineering &Analytics using PowerBi','Microsoft Power Platform','Selenium using C# in Mstest framework','Playwright Automation']}
+            strings={['Welcome to my personal portfolio']}
             typeSpeed={50}
             backSpeed={50}
             loop/>
-            <a href="#" className="btn-main-offer">Contact Me</a>
+            
+           <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer">contact me</Link>
         </div>
      </div>
     
