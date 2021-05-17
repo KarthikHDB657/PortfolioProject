@@ -7,6 +7,7 @@ import Aboutme from './Component/Aboutme';
 import Services from './Component/Services';
 import Experience from './Component/Experience';
 import Portfolio from './Component/Portfolio';
+import Certifications from './Component/Certification';
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
     <Services/>
     <Experience/>
     <Portfolio/>
+    <Certifications/>
+
   </>
   );
 }
