@@ -19,10 +19,7 @@ const Portfolio = () => {
       const content = (
         <>
           <img className="portfolio-image-popupbox" src={CaseDiary} alt="CaseDiary Clone Project..." />
-          <p>Case diary is a powerful software which provides a responsive website to advocate’s to reduce the manual work held by the advocates in his day to day work. They can store data about clients,opponents, case number, previous and next
-         hearing date etc. For all this information storage,there is a need of bulk datasets. This will bepossible from web scrapping of website that contains case related information. In this paper,
-         design of case diary is proposed and also explained how to retrieve a datasets from target website using web scrapping techniques and
-         CAPTCHA bypass tools efficiently.</p>
+          <p>Case diary is a powerful software which provides a responsive website to advocate’s to reduce the manual work held by the advocates in his day to day work.</p>
           <b>Drive:</b> <a className="hyper-link" onClick={() => window.open("https://drive.google.com/file/d/1vjZ09G1oIul4LubNnFUUH9XlbBfvGQao/view?usp=sharing")}>https://drive.google.com/file/d/1vjZ09G1oIul4LubNnFUUH9XlbBfvGQao/view?usp=sharing</a>
         </>
       )
@@ -50,7 +47,7 @@ const Portfolio = () => {
     const openPopupboxPortfolioimage = () => {
       const content = (
         <>
-          <img className="portfolio-image-popupbox" src={Portfolioimage} alt="Personal Portfoli0 Project..." />
+          <img className="portfolio-image-popupbox" src={Portfolioimage} alt="Personal Portfolio Project..." />
           <p>This is a Personal Merncrudapp project developed entirely using react with Javascript using component based approach.</p>
           <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/KarthikHDB657/PortfolioProject", "_blank")}>https://github.com/KarthikHDB657/PortfolioProject</a>
         </>
@@ -135,7 +132,7 @@ const Portfolio = () => {
   
   
     return (
-      <div className="portfolio-wrapper">
+      <div id="portfolio" className="portfolio-wrapper">
         <div className="container">
           <h1 className="text-uppercase text-center py-5">Portfolio</h1>
           <div className="image-box-wrapper row justify-content-center">
